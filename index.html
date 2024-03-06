@@ -8,8 +8,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<nav class="navbar">
+    <div>
+        <span ><i class="fa-solid fa-phone"></i></span> &nbsp;+1 (396) 486 4709 &nbsp;&nbsp; &nbsp;
+        <span><i><i class="fa-regular fa-envelope"></i></span>&nbsp;&nbsp;enquery@konsol.com</i>
+    </div>
+    <div class="nav-lan">
+       <span> <i class="fa-solid fa-earth-americas"> &nbsp;
+            <label for="select"></label>
+            <select id="select">
+                <option value="">English</option>
+                <option value="">Hindi</option>
+                <option value="">UK English</option>
+                <option value="">US English</option>
+                <option value="">Japani</option>
+                <option value="">Chines</option>
+            </select>
+            
+        </i></span>
+        <p>&nbsp; <span class="q-icon">?</span> Help</p>
+</div>
+    <div id="nav-share">
+        <ul>
+            <li><a href="#"> <i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-google"></i> </a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i> </a></li>
+            <li><a href="#"> <i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-x"></i> </a></li>
+        </ul>
+    </div>
+
+
+</nav>
+
+<hr>
+
     <!-- Navbar -->
-    <nav>
+    <nav class="nav2">
         <h2><img src="/images/logo.png" alt="logo" ></h2>
         <ul>
             <li><a href="#">HOME</a></li>
@@ -23,6 +59,7 @@
         </ul>
     </nav>
 <!-- navbar ckose -->
+
 <!-- hero section -->
     <div class="hero_img">
         <div class="bottom-left">
@@ -90,7 +127,7 @@
         
     <table>
         <tr>
-        <td rowspan="5"> <img class="left-image" src="/images/busnes.jpg" alt=""></td>
+        <td rowspan="5"> <img class="left-image" src="/images/holo.jpeg" alt=""></td>
         <td><h1>We Help You To Build & Grow <br> Your Business</h1> <br><br>
             <!-- <div class="underline1"></div>
             <div class="underline2"></div> -->
@@ -135,7 +172,7 @@
 <h1>Let's Have A Look At Some Of <br> Our Best Work</h1>
  <div class="underline1"></div>
  <div class="underline2"></div>
- <div class="work-li">
+ <div class="work-list">
     <ul>
         <li><a href="#">ALL</a></li>
         <li><a href="#">BRANDING</a></li>
@@ -144,17 +181,34 @@
         <li><a href="#">GRAPHIC</a></li>
     </ul>
  </div>
- <div class="work-image">
+ <div class="work-image" >
     <table>
         <tr>
-            <td><img src="/images/anna.webp" alt=""></td>
+            <td>
+                
+                <div class="work-image1">
+                    <img src="/images/busnes.jpg" alt="">
+                </div>
+                </td>
             <!-- <td><img src="/images/birds.jpg" alt=""></td> -->
-            <td><img src="/images/king parat.webp" alt=""></td>
+            <td>
+                <div class="work-image2">
+                    <img src="/images/busnes.jpg" alt="">
+                </div>
+                </td>
             <!-- <td rowspan="2"><img src="/images/buttrfly.webp" alt=""></td> -->
         </tr>
         <tr>
-            <td><img src="/images/busnes.jpg" alt=""></td>
-            <td colspan="2"><img src="/images/king parat.webp" alt=""></td>
+            <td>
+                <div class="work-image3">
+                    <img src="/images/busnes.jpg" alt="">
+                </div>
+                </td>
+            <td colspan="2">
+                <div class="work-image4">
+                    <img src="/images/busnes.jpg" alt="">
+                </div>
+                </td>
             
             
         </tr>
@@ -173,8 +227,8 @@
     <div class="underline1"></div>
  <div class="underline2"></div>
 
- <div class="client-table" > 
-    <table>
+ <div class="client-table"> 
+    <table cellspacing="20px" >
         <tr>
             <td>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa quo maxime corrupti cumque veniam.</p>
@@ -200,13 +254,239 @@
 <!-- Client section close -->
 
 <!-- Price section start -->
-<section>
-    
+<section class="plan">
+    <h1>Choose The Right Plan That <br> Suitable For You</h1>
+    <div class="underline1"></div>
+    <div class="underline2"></div>
+<div class="square">
+    <div class="item">
+        <h3>SMALL BUSINESS</h3>
+        <h1><span class="price">$29</span> <sub>/month</sub></h1>
+        <hr>
+       
+        <ul class="square-list">
+            <li><i class="fa-solid fa-check"></i> &nbsp;&nbsp;Unlimited Project&nbsp;</li><br>
+            <li><i class="fa-solid fa-check"></i> &nbsp;500 Gb Storage File</li><br>
+            <li><i class="fa-solid fa-check"></i> &nbsp;&nbsp;Password Protect&nbsp;&nbsp;</li><br>
+            <li><i class="fa-solid fa-check"></i> &nbsp;24/7 Support&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><br>
+        </ul>
+     <button class="list-btn" type="list-btn">Buy Now</button>
+    </div>
+
+    <div class="item">
+        <h3>MID BUSINESS</h3>
+        <h1><span class="price">$39 </span><sub>/month</sub></h1>
+        <hr>
+        <ul class="square-list">
+            <li><i class="fa-solid fa-check"></i> &nbsp;&nbsp;Unlimited Project&nbsp;</li><br>
+            <li><i class="fa-solid fa-check"></i> &nbsp;500 Gb Storage File</li><br>
+            <li><i class="fa-solid fa-check"></i> &nbsp;&nbsp;Password Protect&nbsp;&nbsp;</li><br>
+            <li><i class="fa-solid fa-check"></i> &nbsp;24/7 Support&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><br>
+        </ul>
+     <button class="list-btn"  type="submit">Buy Now</button>
+    </div>
+
+    <div class="item">
+        <h3>PRO BUSINESS</h3>
+        <h1><span class="price">$69</span> <sub>/month</sub></h1>
+        <hr>
+        <ul class="square-list">
+            <li><i class="fa-solid fa-check"></i> &nbsp;&nbsp;Unlimited Project&nbsp;</li><br>
+            <li><i class="fa-solid fa-check"></i> &nbsp;500 Gb Storage File</li><br>
+            <li><i class="fa-solid fa-check"></i> &nbsp;&nbsp;Password Protect&nbsp;&nbsp;</li><br>
+            <li><i class="fa-solid fa-check"></i> &nbsp;24/7 Support&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><br>
+        </ul>
+     <button class="list-btn"  type="submit">Buy Now</button>
+     
+    </div>
+    <div class="item">
+       
+        <h3> ENT BUSINESS</h3>
+        <h1><span class="price">$89</span> <sub>/month</sub></h1>
+        <hr>
+        <ul class="square-list">
+            <li><i class="fa-solid fa-check"></i> &nbsp;&nbsp;Unlimited Project&nbsp;</li><br>
+            <li><i class="fa-solid fa-check"></i> &nbsp;500 Gb Storage File</li><br>
+            <li><i class="fa-solid fa-check"></i> &nbsp;&nbsp;Password Protect&nbsp;&nbsp;</li><br>
+            <li><i class="fa-solid fa-check"></i> &nbsp;24/7 Support&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><br>
+        </ul>
+     <button class="list-btn"  type="submit">Buy Now</button>
+    </div>
+</div>
 </section>
 
 
 <!-- Price section close  -->
 
+<!-- cut section -->
+<section class="cut">
+    
+    <div class="cut-h">
+    <h1>Create Your Business With Us Today. We Are Waitting For You.</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque soluta eaque voluptatum.</p>
+</div>
+<div>
+<button class="cut-btn" type="submit">Get Started</button>
+</div>
+</section>
+
+<!-- Blog Section  start-->
+<section class="blog">
+    <h1>Check Out Our Latest News <br> And Blog Posts</h1> 
+    <div class="underline1"></div>
+    <div class="underline2"></div>
+<div class="img-table">
+    <table  cellspacing="30px">
+        <tr>
+            <td><img src="/images/background.jpg" alt="" width="400px" ><br><br>
+                <h4>Consectetur adipisicing elit. Illum unde ab nostrum</h4><br>
+                 <p>Lorem ipsum dolor sit amet, consectet adipisi elit. Illum unde ab nostrum, maiores incidunt. Perspiciatis a quisquam modi sed.</p>
+                 <br><hr><br>
+                <i class="fa-regular fa-user"></i> &nbsp;Jhon &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-heart"></i>&nbsp;555 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-comment"></i>&nbsp;99
+        </td>
+        <td><img src="/images/background.jpg" alt="" width="400px" ><br><br>
+                <h4>Consectetur adipisicing elit. Illum unde ab nostrum</h4><br>
+                <p>Lorem ipsum dolor sit amet, consectet adipisi elit. Illum unde ab nostrum, maiores incidunt. Perspiciatis a quisquam modi sed.</p>
+                <br><hr><br>
+                <i class="fa-regular fa-user"></i> &nbsp;Jhon &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-heart"></i>&nbsp;555 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-comment"></i>&nbsp;99
+        </td>
+     <td><img src="/images/background.jpg" alt="" width="400px" ><br><br>
+            <h4>Consectetur adipisicing elit. Illum unde ab nostrum</h4><br>
+             <p>Lorem ipsum dolor sit amet, consectet adipisi elit. Illum unde ab nostrum, maiores incidunt. Perspiciatis a quisquam modi sed.</p>
+             <br><hr><br>
+             <i class="fa-regular fa-user"></i> &nbsp;Jhon &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-heart"></i>&nbsp;555 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-comment"></i>&nbsp;99
+    </td>
+        </tr>
+        </div>
+    </table>
+</section>
+
+
+
+<!-- blog Section close -->
+
+<!-- Brand area -->
+
+
+<section class="brand-area">
+    <div class="brand-area1">
+    <img src="/images/brand logo/digimind.png" alt="">
+</div>
+<div class="brand-area2">
+    <img src="/images/brand logo/android.png" alt="">
+</div>
+<div class="brand-area3">
+    <img src="/images/brand logo/GitHub_Logo.png" alt="">
+</div>
+<div class="brand-area4">
+    <img src="/images/brand logo/logitech.png" alt="">
+</div>
+<div class="brand-area5">
+    <img src="/images/brand logo/ritic.png" alt="">
+</div>
+
+</section>
+
+
+<!-- brand area close -->
+
+<!-- Zeero Section -->
+<section class="zeero">
+<table  cellspacing="5"> 
+    <tr>
+    
+        <td>
+        <div class="imgae-section-zeero"></div>
+         <img src="/images/logo.png" alt="">
+
+         <div class="flogo">
+         <p>Lorem ipsum dolor sit amet, consectet <br> adipisicing elit. Saepe porro neque ab <br> nam nulla quos atque.</p>
+         <ul>  
+            <li> <i class="fa-solid fa-location-dot"></i> &nbsp; 795 South Park Avenue, CA 94107</li>
+            <li><i class="fa-regular fa-envelope"></i> &nbsp; enquery@domain.com</li>
+            <li><i class="fa-solid fa-phone"></i> &nbsp;+1 908 875 7678</li>
+         
+           
+        </ul>
+    </div>
+        </td>
+        
+    <td>
+        <div class="usefull-links">
+         <h1>USEFULL&nbsp; LINK</h1>
+         <ul>
+            <li><i class="fa-solid fa-greater-than"></i><a href="#">General Information</a></li>
+            <li><i class="fa-solid fa-greater-than"></i><a href="#">Help Center</a></li>
+            <li><i class="fa-solid fa-greater-than"></i><a href="#">Our Services</a></li>
+            <li><i class="fa-solid fa-greater-than"></i><a href="#">Privacy Policy</a></li>
+            <li><i class="fa-solid fa-greater-than"></i><a href="#">Online Support</a></li>
+            <li><i class="fa-solid fa-greater-than"></i><a href="#">Blog Posts</a></li>
+         </ul>
+        </div>
+    </td>
+    <td>
+        <div class="recent-post">
+        <h1>RECENT POST</h1>
+        <ul>
+            <li><i class="fa-brands fa-twitter"></i>
+                <a href="#">Lorem ipsum dolor sit ...</a> <br>
+               <span class="recent-cl"> Mar 30, 2019</span></li>
+            <li><i class="fa-brands fa-twitter"></i>
+                <a href="#">Lorem ipsum dolor sit ...</a> <br>
+               <span class="recent-cl"> Mar 30, 2019</span></li>
+            <li><i class="fa-brands fa-twitter"></i>
+                <a href="#">Lorem ipsum dolor sit ...</a> <br>
+                <span class="recent-cl">Mar 30, 2019</span></li>
+        </ul>
+    </div>
+    </td>
+    <td>
+        <div class="share-icons">
+        <h1>SUBSCRIBE</h1>
+        <p>Lorem ipsum dolor sit amet, consectet <br> adipisicing elit.</p>
+       
+        <div class="eml">
+        <label for="email"></label>
+        <input type="email"  id="email" placeholder="Enter email here">
+        <br>
+
+        <label for="btn"></label>
+        <input type="button"  id="btn" value="submit">
+    </td>
+</div>
+    </tr>
+</table>
+</section>
+
+
+<!-- zero section close -->
+
+<!-- Footer section  start -->
+<footer class="footersection">
+    <div>
+        <p>Copyright  &copy; 2024 All rights reserved!</p>
+    </div>
+    <div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li><a href="#"> <i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-google"></i> </a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i> </a></li>
+            <li><a href="#"> <i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-x"></i> </a></li>
+        </ul>
+    </div>
+</footer>
+
+<!-- Footer section close -->
 
 </body>
 </html>

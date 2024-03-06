@@ -7,44 +7,111 @@
     box-sizing: border-box;
 }
 
-nav{
+
+.navbar{
+    padding-left: 200px;
+   padding-top: 5px;
+   font-size: 12px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+.nav-lan {
+    display: flex;
+   
+    
+
+}
+#nav-share{
+    margin-top: 0px;
+    position:sticky;
+   right: 0;
+   
+}
+
+.navbar{
     background-color: white;
     display: flex;
     justify-content: space-between;
+    
+
 }
-nav h2 img{
+
+.navbar ul{
+    display: flex;
+    margin-right: 100px;
+    margin-top: 0px;
+  
+}
+.navbar ul li{
+    margin-left: 20px;
+    list-style: none; 
+}
+.navbar ul li a{
+   
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+ }
+ .navbar ul li a:hover{
+     color: rgb(250, 18, 231);
+     border-bottom: dashed;
+     border-bottom-color: blue;
+ }
+ .navbar ul li i{
+     cursor: pointer;
+ }
+.navbar i{
+    font-size: 15px;
+}
+.q-icon{
+    font-size: 15px;
+}
+
+/* nav2 start */
+
+.nav2{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.nav2 h2 img{
     width: 250px;
     height: 50px;
     margin-left: 80px;
     margin-top: 20px;
     cursor: pointer;
 }
-ul{
+.nav2 ul{
     display: flex;
     margin-right: 100px;
     margin-top: 20px;
   
 }
-li{
+.nav2 ul li{
     margin-left: 50px;
     list-style: none; 
 }
-ul li a{
+.nav2 ul li a{
    
    text-decoration: none;
    font-weight: 800;
    color: black;
 }
-ul li a:hover{
+.nav2 ul li a:hover{
     color: rgb(250, 18, 231);
+    border-bottom: dashed;
+    border-bottom-color: blue;
 }
-ul li i{
+.nav2 ul li i{
     cursor: pointer;
 }
+
 /* hero section */
 .hero_img img{
     width: 100%;  
-    height: 90vh;
+    height: 100vh;
     justify-items: center;
 }
 .bottom-left {
@@ -57,10 +124,7 @@ ul li i{
   .bottom-left button{
     padding: 10px 10px 10px 10px;
     font-weight: 200;
-    border-top-left-radius: 30%;
-    border-top-right-radius: 30%;
-    border-bottom-left-radius: 30%;
-    border-bottom-right-radius: 30%;
+    font-size: 15px;
     cursor: pointer;
   }
   .bottom-left button:hover{
@@ -127,12 +191,13 @@ ul li i{
     padding-right: 50px;
 }
 .business h1{
-    padding-bottom: 20px;
-    font-size: 40px;
+    padding-bottom: 15px;
+    font-size: 35px;
 }
 .business p{
-    padding-right: 300px;
+  
     word-spacing: 2ch;
+    margin-right: 200px;
 }
 .italic {
   
@@ -144,10 +209,11 @@ ul li i{
 .sign{
     font-style: italic;
     font-family: "Cedarville Cursive", cursive;
-    color: aqua;
+    color: aquamarine;
 }
 
 .Customer-satishfaction table{
+    padding-top: 30px;
     font-size: 20px;
     
 }
@@ -167,19 +233,25 @@ span{
 }
 
 /* busnes section close */
+
+
+/* Video section start  */
 .video{
     text-align: center;
     padding-top: 200px;
     padding-bottom: 50px;
-    background-color: water;
+    background: url(/images/background\ image.jpg);
+  
 }
 .video h2{
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 40px;
 }
 .video p{
     line-height: 3.5vh;
     padding-bottom: 50px;
+    color: black;
 }
 .video i{
     text-align: center;
@@ -187,7 +259,7 @@ border-radius: 50%;
 padding-left: 15px;
 background-color: black;
     border: 4px solid #1900ff;
-    font-size: 100px;
+    font-size: 50px;
     color: beige;
     cursor: pointer;
     margin-bottom: 100px;
@@ -196,6 +268,7 @@ background-color: black;
     border-radius: 8px;
     border: #1900ff;
     background-color: blueviolet;
+    border-radius: 50%;
 }
 
 /* video section close */
@@ -204,15 +277,32 @@ background-color: black;
 
 .work{
     text-align: center;
+    background-color: beige;
+    padding-top: 50px;
 }
 .work h1{
     margin-bottom: 20px;
 }
 
-.work-li {
+.work-list ul{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.work-list li{
+    /* padding-right: 10px; */
+    margin-right: 20px;
+    list-style: none;
+ 
+}
+.work-list ul li a{
+    text-decoration: none;
+    font-weight: 800px;
+    font-style: bold;
     
-    margin-left: 500px;
-    margin-bottom: 50px;
+}
+.work-list ul li a:hover{
+    color: #1900ff;
 }
 .work-image{
    margin-left: 100px;
@@ -221,10 +311,7 @@ background-color: black;
 .work-image tr{
     margin-bottom: 100px;
 }
-.work-image tr td{
-height: 80vh;
 
-}
 
 
 
@@ -232,26 +319,34 @@ height: 80vh;
 
 /* client Section start */
 .client{
-    margin-top: 50px;
+    
     text-align: center;
+    background-color: whitesmoke;
+    padding-bottom: 50px;
+    padding-top: 120px;
 }
 .client h1{
     padding-bottom: 20px;
+    font-size: 40px;
 }
 .client-table {
-    margin-left: 350px;
+    margin-left: 300px;
     margin-bottom: 100px;
+   margin-right: 350px;
+    
     
 
 }
 .client-table tr{
     margin: 200px;
+    
    
 }
 .client-table tr td{
     background-color: azure;
     width: 300px;
     text-align: center;
+  
       
 }
 .client-table  p{
@@ -261,12 +356,19 @@ height: 80vh;
 .client-table i{
     font-size: 40px;
     padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 5px;
     
     /* display: flex; */
     justify-content: start;
     border: 4px solid green;
     border-radius: 50%;
     background-color: cornflowerblue;
+}
+.client-table i:hover{
+    color: aqua;
+    cursor: pointer;
+    background-color: black;
 }
 
 
@@ -276,8 +378,338 @@ height: 80vh;
 /* Client section close */
 
 
+/* Price section  start*/
+.plan{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.plan h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.square{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-bottom: 100px;
+    margin-top: 50px;
+    justify-content: center;
+
+}
+.item{
+   
+    width: 250px;
+    height: 350px;
+    background-color: rgb(234, 135, 14);
+    border: 4px slateblue ;
+    margin-right: 10px;
+    
+
+}
+.square-list{
+    list-style: none;
+    padding-top: 20px;
+}
+.item h1 sub{
+    font-size: 15px;
+    
+}
+.item h3{
+    padding: 20px;
+}
+
+.item .list-btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+.item .list-btn:hover{
+    color: black;
+    background-color: aqua;
+    cursor: pointer;
+}
+.price {
+    color: rgb(65, 221, 205);
+}
+.square-list i{
+    color: rgb(23, 79, 233);
+}
+
+/* Price section close */
+
+/* cut section */
+.cut{
+    background: url(/images/background.jpg) no-repeat top/cover;
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    /* margin-top: 50px; */
+    padding-top: 40px;
+    padding-bottom: 60px;
+  
+    height: 30vh;
+    
+}
+.cut h1{
+    font-size: 30px;
+    padding-bottom: 5px;
+    padding-top: 50px;
+}
+.cut-h{
+    padding-right: 100px;
+    line-height: 3.5vh;
+} 
+.cut .cut-btn{
+   margin-top: 40px;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+}
+.cut .cut-btn:hover{
+    background-color: #1900ff;
+    cursor: pointer;
+    color: white;
+}
+
+/* Blog section start */
+
+.blog{
+    /* height: 100vh; */
+    padding-top: 100px;
+    margin-bottom: 20px;
+    height: 100vh;
+}
+.blog h1{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+.img-table{
+    display: flex;
+  margin-left:500px;
+  margin-right: 500px;
+    justify-content: center;
+   
+}
+.img-table i{
+    text-align: center;
+}
+.img-table i{
+    color: aqua;
+}
 
 
+/* Blog Section close */
+
+
+/* brand area start */
+.brand-area{
+    background-color: whitesmoke;
+    display: flex;
+    height: 30vh;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 80px;
+  
+}
+
+
+
+
+
+
+
+/* brand area close */
+
+
+
+/* Zeero section start */
+
+.zeero {
+    height: 60vh;
+    background-color:  #1a1b25;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-top: 50px ;
+   
+}
+
+.zeero img{
+    /* width: 100px; */
+    /* height: 50px; */
+  margin-left: 22px;
+    
+}
+.zeero p{
+    margin: 20px;
+}
+.flogo ul{
+    margin: 30px;
+    list-style: none;
+line-height: 1.8;
+}
+.flogo ul li i{
+    color: aquamarine;
+}
+.usefull-links h1{
+    /* margin: 40px; */
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.usefull-links ul{
+    list-style: none;
+    line-height: 2.0;
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 80px;
+    padding-right: 30px;
+}
+.usefull-links ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.usefull-links ul li a:hover{
+    color: #1900ff;
+}
+.usefull-links i{
+    margin-right: 20px;
+}
+
+.usefull-links ul li i{
+    color: aquamarine;
+    font-size: 10px;
+}
+
+.recent-post h1{
+    /* margin: 40px; */
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 40px;
+    font-size: 20px;
+}
+
+.recent-post ul{
+    list-style: none;
+    line-height: 1.5;
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 80px;
+    padding-right: 40px;
+}
+
+.recent-post ul li a{
+    text-decoration: none;
+    color: white;
+}
+.recent-post ul li a:hover{
+    color: blue;
+}
+ .recent-cl{
+    padding-left: 20px;
+    color: white;
+    font-size: 12px;
+    
+ }
+.recent-post ul li i{
+    color: aquamarine;
+    font-size: 20px;
+}
+
+.share-icons h1{
+    /* margin: 40px; */
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.share-icons p{
+    margin: 30px;
+}
+.share-icons {
+    margin-bottom: 100px;
+    margin-left: 40px;
+}
+.share-icons .eml{
+    margin-left: 30px;
+    height: 20px;
+  
+    
+}
+
+#btn{
+    font-size: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: blue;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+#btn:hover{
+    background-color: aquamarine;
+
+}
+.eml input{
+    font-size: 17px;
+    padding: 5px 5px 5px 5px;
+    
+}
+
+
+
+
+/* Zero section close */
+
+
+/* Footer Section start */
+
+.footersection{
+    height: 15vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.footersection p{
+   margin-left: 200px;
+}
+
+.footersection ul{
+    display: flex;
+    /* justify-content: space-between; */
+
+}
+.footersection ul li{
+    list-style: none;
+
+}
+.footersection ul li a{
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+
+
+}
+.footersection ul li a:hover{
+    color: blue;
+}
+.footersection ul{
+    padding-right: 150px;
+}
+
+
+/* footer section close */
 
 
 
